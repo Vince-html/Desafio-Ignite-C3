@@ -1,1 +1,52 @@
-// TODO
+.container {
+
+  button {
+    border: none;
+    background: transparent;
+    display: block;
+    color: var(--highlight);
+    margin-top: 4rem;
+
+  }
+}
+
+
+
+.list {
+  list-style: none;
+  margin-top: 3rem;
+
+  .title {
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--white);
+  }
+
+  p {
+    padding: 0.8rem 0;
+  }
+
+  .infoContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+
+    span {
+      display: flex;
+      align-items: center;
+
+      time {
+        margin-left: 0.8rem;
+      }
+    }
+
+    span:last-child {
+      margin-left: 1rem;
+
+    }
+  }
+}
+
+
+
+

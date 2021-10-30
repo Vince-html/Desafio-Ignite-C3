@@ -1,1 +1,38 @@
-// TODO
+.title {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+
+.infoContainer{
+  display: flex;
+
+  margin-top: 2rem;
+
+  span {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+
+    svg {
+      margin-right: 0.5rem;
+    }
+  }
+
+  span:first-child {
+    margin-left: 0;
+  }
+}
+
+.bodyContent {
+
+    margin-top: 2rem;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    p{
+      margin-top: 1rem;
+    }
+}
